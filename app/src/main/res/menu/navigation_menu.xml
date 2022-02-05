@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/questions"
+        android:icon="@drawable/questions"
+        android:title="@string/questions"
+        android:titleCondensed="0" />
+
+    <item android:id="@+id/clubs"
+        android:icon="@drawable/school_club"
+        android:title="@string/school_clubs"
+        android:titleCondensed="1"/>
+
+    <item android:id="@+id/school_dormitory"
+        android:icon="@drawable/bed"
+        android:title="@string/dormitory"
+        android:titleCondensed="2"/>
+
+    <item android:id="@+id/sentences"
+        android:icon="@drawable/alien"
+        android:title="@string/sentences"
+        android:titleCondensed="3"/>
+
+    <item android:id="@+id/food_list"
+        android:icon="@drawable/food"
+        android:title="@string/today_meal"
+        android:titleCondensed="4"/>
+
+    <item android:id="@+id/empty1"
+        android:title=""
+        android:enabled="false"/>
+
+    <item android:id="@+id/empty2"
+        android:title=""
+        android:enabled="false"/>
+
+    <item android:id="@+id/send_error"
+        android:icon="@drawable/error"
+        android:title="@string/send_error"
+        android:titleCondensed="5"/>
+
+    <item android:id="@+id/connectUs"
+        android:icon="@drawable/connect"
+        android:title="@string/connect_us"
+        android:titleCondensed="6"/>
+
+    <item android:id="@+id/suggestion"
+        android:icon="@drawable/suggestion"
+        android:title="@string/suggestion"
+        android:titleCondensed="7"/>
+</menu>
